@@ -8,7 +8,7 @@
 ### Express
 - [Начало работы с Express](https://metanit.com/web/nodejs/4.1.php)
 - [Примеры использования Express](https://nodejsdev.ru/guides/webdraftt/express/)
-- [Сессии] (https://nodejsdev.ru/guides/webdraftt/sessions/)
+- [Сессии](https://nodejsdev.ru/guides/webdraftt/sessions/)
 
 ### Sequelize
 - [PostgreSQL + Sequelize](https://my-js.org/docs/guide/sequelize/)
