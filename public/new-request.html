@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Новая заявка</title>
+  </head>
+  <body>
+    <h1>Новая заявка</h1>
+    <form id="request-form">
+      <div>
+        <label for="address">Адрес:</label>
+        <input type="text" id="address" required />
+      </div>
+      <div>
+        <label for="phone">Контактный телефон:</label>
+        <input type="tel" id="phone" required />
+      </div>
+      <div>
+        <label for="date">Желаемая дата:</label>
+        <input type="date" id="date" required />
+      </div>
+      <div>
+        <label for="time">Желаемое время:</label>
+        <input type="time" id="time" required />
+      </div>
+      <div>
+        <label for="service">Вид услуги:</label>
+        <select id="service" required>
+          <option value="general">Общий клининг</option>
+          <option value="deep">Генеральная уборка</option>
+          <option value="post-construction">Послестроительная уборка</option>
+          <option value="carpet">Химчистка ковров и мебели</option>
+        </select>
+      </div>
+      <div>
+        <label for="payment">Способ оплаты:</label>
+        <select id="payment" required>
+          <option value="cash">Наличные</option>
+          <option value="card">Банковская карта</option>
+        </select>
+      </div>
+      <button type="submit">Отправить заявку</button>
+    </form>
+    <script src="/js/new-request.js"></script>
+  </body>
+</html>
